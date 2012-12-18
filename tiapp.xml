@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">JB4ihblings9xIcDX2vNOHJBPqno1sD1</property>
+    <property name="acs-oauth-key-production" type="string">pUtI6ybdzbv21plkZTuhadPKa4pF50ZP</property>
+    <property name="acs-api-key-production" type="string">FkR170LpNLYoVUBSjZky6PEBjcQ6Zbo7</property>
+    <property name="acs-oauth-secret-development" type="string">evTdIBbbRqxQ7CyxGruucVxCzKyo4H75</property>
+    <property name="acs-oauth-key-development" type="string">UunUbq396mKV1rkoWuGg0sxpaVDRON49</property>
+    <property name="acs-api-key-development" type="string">QXuh7We66TnGxzrefdHd2ZHgURHWTE9M</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.4.GA</sdk-version>
+    <id>com.hubmvc.app</id>
+    <name>hubmvc</name>
+    <version>1.0</version>
+    <publisher>ekuto</publisher>
+    <url>http://hubmvc.com</url>
+    <description>not specified</description>
+    <copyright>2012 by ekuto</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>cb8f1f30-a84c-4ce3-a6b8-5c4d001a4c7e</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
